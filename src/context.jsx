@@ -7,5 +7,6 @@ const ContactsContext = React.createContext({
     { id: 3, firstName: "Grace", surname: "Master", phoneNo: 123456778 },
   ],
   CurrentContact: {},
+  //test branch B
 });
 export default ContactsContext;

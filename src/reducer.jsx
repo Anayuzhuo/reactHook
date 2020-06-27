@@ -4,7 +4,8 @@ function reducer(state, action) {
   switch (action.type) {
     case "SAVE":
       if (!state.CurrentContact.id) {
-        console.log("#######");
+        console.log("test branch B ---add this line");
+        // console.log("#######");
         console.log(action.payload.firstName);
         const newContact = { ...action.payload, id: uuidv4() };
         const addContacts = [...state.Contacts, newContact];

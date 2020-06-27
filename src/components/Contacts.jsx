@@ -3,6 +3,7 @@ import MaterialTable from "material-table";
 
 import ContactsContext from "../context";
 function Contacts() {
+  console.log("test branchB --add this in contacts");
   const { state, dispatch } = useContext(ContactsContext);
 
   return (
