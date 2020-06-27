@@ -9,4 +9,5 @@ const ContactsContext = React.createContext({
   CurrentContact: {},
   //test branch B
 });
+//inout in branchA
 export default ContactsContext;

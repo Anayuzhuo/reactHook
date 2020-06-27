@@ -7,6 +7,7 @@ function reducer(state, action) {
         console.log("test branch B ---add this line");
         // console.log("#######");
         console.log(action.payload.firstName);
+        console.log("test branch A--add");
         const newContact = { ...action.payload, id: uuidv4() };
         const addContacts = [...state.Contacts, newContact];
         return {
