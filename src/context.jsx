@@ -8,4 +8,5 @@ const ContactsContext = React.createContext({
   ],
   CurrentContact: {},
 });
+//inout in branchA
 export default ContactsContext;

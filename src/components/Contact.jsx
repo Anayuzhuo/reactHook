@@ -7,6 +7,7 @@ import OutlinedInput from "@material-ui/core/OutlinedInput";
 import Button from "@material-ui/core/Button";
 
 function Contact() {
+  console.log("branch A testing ");
   const [firstName, setFirstName] = useState("");
   const [surname, setSurname] = useState("");
   const [phoneNo, setPhoneNo] = useState("");
